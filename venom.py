@@ -8,7 +8,7 @@ import string
 import datetime
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
-from config import BOT_TOKEN, ADMIN_IDS, OWNER_USERNAME
+from config import 7118998792:AAH1oA9vpE_49tVpehHd-__WH1EnK_H0TI4,5540925112,@OMEGA_MASS
 
 
 USER_FILE = "users.json"
@@ -217,7 +217,7 @@ async def broadcast(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     response = (
-        "Welcome to the Flooding Bot by @{OWNER_USERNAME}..! Here are the available commands:\n\n"
+        "Welcome to the Flooding Bot by @{OMEGA_MASS}..! Here are the available commands:\n\n"
         "Admin Commands:\n"
         "/genkey <amount> <hours/days> - Generate a key with a specified validity period.\n"
         "/allusers - Show all authorized users.\n"
