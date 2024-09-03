@@ -121,7 +121,7 @@ If you wish to contribute to this project, feel free to submit a pull request or
 
 For any queries or support, contact [venomXcrazy](https://t.me/venomXcrazy) on Telegram. 
 
- UPDATE CREADIT - [|ZAHER|](https://t.me/Hi_cheat1)
+
 ---
 
 Happy DDoS'ing responsibly! 🚀
