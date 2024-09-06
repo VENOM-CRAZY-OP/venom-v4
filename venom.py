@@ -8,7 +8,7 @@ import string
 import datetime
 from telegram import Update
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
-from config import 7463396958:AAG39RCyARIWu6rjVPyr8sYMA22U4rrxpMs, 6066597118, @Itz_BDG
+from config import BOT_TOKEN, ADMIN_IDS, OWNER_USERNAME
 
 
 USER_FILE = "users.json"
