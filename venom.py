@@ -231,7 +231,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
     await update.message.reply_text(response)
 
 def main() -> None:
-    application = ApplicationBuilder().token(7463396958:AAG39RCyARIWu6rjVPyr8sYMA22U4rrxpMs).build()
+    application = ApplicationBuilder().token().build()
 
     application.add_handler(CommandHandler("genkey", genkey))
     application.add_handler(CommandHandler("redeem", redeem))
